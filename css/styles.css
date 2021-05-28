@@ -24,7 +24,7 @@ img {
 
 .container2 {
   background-color: #fff;
-  padding: 1.5% 15% .5% 15%; }
+  padding: 1.5% 15% .5% 10%; }
 
 .container3 {
   background-color: #f5f4f4;
@@ -36,7 +36,7 @@ img {
 
 .container5 {
   background-image: url("../images/cliffs.png");
-  background-size: 100%;
+  background-size: cover;
   padding: 5% 30% 20% 30%; }
 
 .container6 {
@@ -46,6 +46,11 @@ img {
 /*columns*/
 .col {
   padding: none; }
+
+.col-header {
+  padding-top: 5%;
+  margin-bottom: -3%;
+  text-align: right; }
 
 .col-3 {
   text-align: left;
@@ -65,14 +70,11 @@ img {
   padding-right: 33%; }
 
 .col-6 {
-  padding-left: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-top: 10%;
+  margin-right: 10%;
   color: #ffffff; }
-
-.col-32 {
-  padding-left: 25%;
-  padding-top: 5%;
-  margin-bottom: -4%; }
 
 .col-md-3 {
   padding: 3% 4% 3% 4%; }
